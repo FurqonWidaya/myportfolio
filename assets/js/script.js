@@ -59,22 +59,22 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "My Portfolio | Furqon Aji Widaya";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            // document.title = "Come Back To Portfolio";
+            // $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["Data Analyst","Web Development", "Front-End Development","Back-End Development"],
     loop: true,
     typeSpeed: 50,
-    backSpeed: 25,
+    backSpeed: 30,
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
