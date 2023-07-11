@@ -64,12 +64,9 @@ document.onkeydown = function(e) {
 
 document.addEventListener('visibilitychange',
     function () {
-        if (document.visibilityState === "visible") {
+        document.visibilityState === "visible" {
             document.title = "My Portfolio | Furqon Aji Widaya";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
-        else {
-            // document.title = "Come Back To Portfolio";
-            // $("#favicon").attr("href", "assets/images/favhand.png");
-        }
+      
     });
